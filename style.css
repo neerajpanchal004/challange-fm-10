@@ -1,0 +1,68 @@
+.containor{
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows:200px,250px;
+    grid-template-areas: 
+    "card-1 card-1"
+    "card-2 card-3";
+    margin-top: 60px;
+    width: 600px;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+    box-shadow: 0.5px 0.5px 10px rgb(149, 197, 226);
+
+}
+body{
+    background-color: rgba(240,240,240,255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.card-1{
+    grid-area: card-1;
+    background-color: rgba(255,255,255,255);
+    padding: 20px;
+}
+.card-1>h3{
+    color: rgba(48,158,156,255);
+}
+.card-1>h4{
+    color: rgba(209,225,127,255);
+}
+.card-1>p{
+    color: gray;
+}
+.card-2{
+    grid-area: card-2;
+    background-color: rgba(43,179,177,255);
+    padding: 20px;
+    color: white;
+}
+.card-3{
+    grid-area: card-3;
+    background-color: rgba(74,190,189,255);
+    padding: 20px;
+    color: white;
+}
+.card-3>p{
+    color:rgba(163,237,240,255) ;
+}
+button{
+    background-color: rgba(191,223,50,255);
+    color: white;
+    width: 90%;
+    margin: auto;
+    height: 34px;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    box-shadow: 10px 10px 10px transparent;
+}
+#dollar{
+    font-size: xx-large;
+}
+#month{
+    color: rgba(100,208,212,255);
+}
