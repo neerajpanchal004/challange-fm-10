@@ -1,11 +1,11 @@
 .containor{
     display: grid;
     grid-template-columns: repeat(2,320px);
-    grid-template-rows:150px,180px;
+    grid-template-rows:120px,150px;
     grid-template-areas: 
     "card-1 card-1"
     "card-2 card-3";
-    margin-top: 90px;
+    margin-top: 100px;
     width: 640px;
     border-radius: 20px;
     /* border: 2px solid red; */
